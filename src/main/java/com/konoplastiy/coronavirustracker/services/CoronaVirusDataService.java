@@ -4,6 +4,7 @@ import com.konoplastiy.coronavirustracker.models.LocationStats;
 import org.apache.commons.csv.CSVFormat;
 import org.apache.commons.csv.CSVRecord;
 import org.springframework.scheduling.annotation.Scheduled;
+import org.springframework.stereotype.Component;
 import org.springframework.stereotype.Service;
 import javax.annotation.PostConstruct;
 import java.io.IOException;
@@ -18,7 +19,7 @@ import java.util.List;
 @Service
 public class CoronaVirusDataService {
 
-    private static String VIRUS_DATA_URL = "https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css";
+    private static String VIRUS_DATA_URL = "https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_daily_reports/01-01-2021.csv";
 
     private List<LocationStats> allStats = new ArrayList<>();
 
