@@ -19,7 +19,8 @@ import java.util.List;
 @Service
 public class CoronaVirusDataService {
 
-    private static String VIRUS_DATA_URL = "https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_daily_reports/01-01-2021.csv";
+
+    private static String VIRUS_DATA_URL = "https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_time_series/time_series_covid19_confirmed_global.csv";
 
     private List<LocationStats> allStats = new ArrayList<>();
 
@@ -50,5 +51,4 @@ public class CoronaVirusDataService {
         }
         this.allStats = newStats;
     }
-
 }

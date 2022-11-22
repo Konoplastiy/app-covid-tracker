@@ -1,5 +1,8 @@
 package com.konoplastiy.coronavirustracker.models;
 
+import org.springframework.stereotype.Component;
+import org.springframework.stereotype.Service;
+
 public class LocationStats {
 
     private String state;
