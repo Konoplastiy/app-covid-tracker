@@ -1,6 +1,6 @@
 # Coronavirus tracker
 
-### Technology: Java, Spring Boot, Docker, REST API, Thymeleaf, Bootstrap, Commons CSV
+### Technology: Java, Spring Boot, Docker, REST API, Thymeleaf, Commons CSV
 
 ### Description
 
